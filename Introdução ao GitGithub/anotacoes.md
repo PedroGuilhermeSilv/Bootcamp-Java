@@ -1,5 +1,5 @@
 # CMD
-Comandos utilizados no cmd:
+Comandos utilizados no cmd: <br>
 Cd –Entra em uma pasta.
 Cd .. - Volta uma pasta .
 Dir - Mostra os diretórios existentes na pasta.
