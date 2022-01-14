@@ -22,10 +22,18 @@ Commit- aramazena as Tree(aponta p/ Tree).
 Comandos:
 Openssl sha1 “nome do arquivo” -> criptografa.
 Git init - inicia um repositório.
-Git add -move arquivos para stage.
-Git commit- cria um commit
+Git add * ou "Nome do arquivo" -move arquivos para stage.
+Git commit-m -> cria um commit
 List -a-> mostra arquivos ocultos
+git  config list -> mostra as configurações de user, email etc..
+git status-> vê se os arquivos estão em stage para subir para o github.
+git remote add "nome atribuido ao link" link.-> adiciona um link do repositório para subir pro github.
+git remote -v -> lista os repositórios adicionados.
+git pull "nome do repositorio"-> puxa o repositório mais atual.
 
+
+# Como resolver problema de conflito:
+- primeiro se dá um git pull no repositório.
 
 
 
