@@ -1,24 +1,25 @@
-CMD
-Comandos utilizados no cmd:
-Cd ñEntra em uma pasta.
-Cd .. - Volta uma pasta .
-Dir - Mostra os diretÛrios existentes na pasta.
-Cls -> Limpa a tela .
-Mkdir ìpastaî-Cria uma pasta.
-Echo- Printa alguma string.
-Del ìnome da pastaî - Limpa a pasta, apagando os arquivos que h· nela.
-Rmdir ìnome da pastaî- Apaga a pasta
+# CMD
+Comandos utilizados no cmd: <br>
+Cd ‚ÄìEntra em uma pasta.<br>
+Cd .. - Volta uma pasta .<br>
+Dir - Mostra os diret√≥rios existentes na pasta.<br>
+Cls -> Limpa a tela .<br>
+Mkdir ‚Äúpasta‚Äù-Cria uma pasta.<br>
+Echo- Printa alguma string.<br>
+Del ‚Äúnome da pasta‚Äù - Limpa a pasta, apagando os arquivos que h√° nela.<br>
+Rmdir ‚Äúnome da pasta‚Äù- Apaga a pasta<br>
 
-Atalhos:
-TAB- Completa o nome do arquivo.
-Ctr+L ñ Limpa a tela cmd.
+# Atalhos:
+TAB- Completa o nome do arquivo.<br>
+Ctr+L ‚Äì Limpa a tela cmd.<br>
 
-Git
-SHA -  Secure  Hash Algorithm, È um conjunto de funÁıes hash criptogr·ficas projetadas pela NSA. Gera uma chave de 40 algoritmos.
-Blob-  ContÈm metadados do Git: tipo do objeto, tamanho etc..
-Tree- armazena os Blob (aponta p/ o Blob).
-Commit- aramazena as Tree(aponta p/ Tree).
+# Git
+SHA -  Secure  Hash Algorithm, √© um conjunto de fun√ß√µes hash criptogr√°ficas projetadas pela NSA. Gera uma chave de 40 algoritmos.<br>
+Blob-  Cont√©m metadados do Git: tipo do objeto, tamanho etc..<br>
+Tree- armazena os Blob (aponta p/ o Blob).<br>
+Commit- aramazena as Tree(aponta p/ Tree).<br>
 
+<<<<<<< HEAD
 Comandos:
 Openssl sha1 ìnome do arquivoî -> criptografa.
 Git init - inicia um repositÛrio.
@@ -34,6 +35,15 @@ git pull "nome do repositorio"-> puxa o repositÛrio mais atual.
 
 # Como resolver problema de conflito:
 - primeiro se d· um git pull no repositÛrio.
+=======
+# Comandos:
+Openssl sha1 ‚Äúnome do arquivo‚Äù -> criptografa.<br>
+Git init - inicia um reposit√≥rio.<br>
+Git add * ou "nome do carquivo" -move arquivos para stage para ser commitado.<br>
+Git commit -m "motivo do commit"- Commita as alteraÁıes e salva no computador<br>
+List -a-> mostra arquivos ocultos<br>
+
+>>>>>>> f88f2a5a317f7ef60f4a0b4b7b358d4465eb7706
 
 
 
