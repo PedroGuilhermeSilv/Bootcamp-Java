@@ -23,7 +23,7 @@
 	tail + nome do aqr. > nome arq. = copia de um arquivo para outro.
 	cal = mostra o caléndario do mês corrente.
 	### Paginar arquivos grandes
-	cat + nome aqruivo | more = mostra o arquivo paginado no fim aparece "mais".
+	cat + nome aqruivo | = mostra o arquivo paginado no fim aparece "mais".
 	cat + nome arquivo | less = msotra o arquivo paginado no fim aparece ":".
 	Obs: para sair basta aperta Ctrl+z.
  	### Mostrar dois arquivos ao mesmo tempo.
