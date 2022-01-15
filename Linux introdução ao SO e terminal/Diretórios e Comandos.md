@@ -1,31 +1,33 @@
-# Nano
+# Diretórios
 
-- Editor de texto do Ubuntu linux. 
-- Interface baseada no terminal.
+- /bin/ = Binários (executávies)
+- /boot/ = Arquivos do SO
+- /dev/ = Arquivos dos dipositivos (drives)
+- /etc/ = Arquivos de config do SO 
+- /home/ = Diretório dos users 
+- /lib/ = Bibliotecas e modulos do kernel
+- /media/ = Diretório de montagem e dispositivos.
+- /opt/ = instalação de progamas nã oficiais do Linux. 
+- /sbin/ = armazena executáveis.
+- /srv/ = 
+- /tmp/ = arquivos temporários. 
+- /user/ =  usuários do sistema.
+- /var/ = varáveis gerados pelo programa. 
+- /root/ = usurário root ou administrador.
+- /proc/ = diretório virtual usado pelo kernel.
 
 
-# Nano + Nome do arquivo de texto
-- ^ = Ctrl
-- > copia um dado e sobrescreve no arquivo.
-- >> copia um dado e adiciona em um arquivo. 
+
+
+
+# Comandos
+- lspci = vizualizamos todos os hardware conectados via pci.
+- lsusb = vizualizamos todos os hardware conectados via usb.
+- arch = mostra a arquitetura do sistema utilizado.
+- free = saida de memória virutal e fisica.
+- du -h + nome do diretório = mostra quando o diretório usa de memória.
+- reboot = reinicia o sistema.
+- shutdown -h now = desliga o sistema.
+- lshw = mostra informações do hardware.
  ## Atalhos
-	grep + "info" + nome arq. = busca dados no arquivo.
-	file + nome de arq ou direct = mostra o tipo.
-	alt + u = desfazer.
-	alt +a = marca o texto.
-	alt + 6 = copiar o texto.
-	ctlr + u = colar o texto.
-	ctrl + / = substituir.
-	cat + nome do arquivo = mostra o que tem no arquivo de cima pra baixo.
-	tac + nome do arquivo = mostra o que tem no arquivo de baixo pra cima.
-	head + nome do arquivo = mostra as 10 primerias linhas.
-	tail + nome do arquivo = mostra as 10 últimas linhas.
-	tail + nome do aqr. > nome arq. = copia de um arquivo para outro.
-	cal = mostra o caléndario do mês corrente.
-	### Paginar arquivos grandes
-	cat + nome aqruivo | = mostra o arquivo paginado no fim aparece "mais".
-	cat + nome arquivo | less = msotra o arquivo paginado no fim aparece ":".
-	Obs: para sair basta aperta Ctrl+z.
- 	### Mostrar dois arquivos ao mesmo tempo.
-	cat nome do arq. & cat nome do arq. = ele sepera arquivo por linha de terminal.
-	cat nome do arq. && cat nome do arq. = mostra os dois arquivos consecutivos.
+	
