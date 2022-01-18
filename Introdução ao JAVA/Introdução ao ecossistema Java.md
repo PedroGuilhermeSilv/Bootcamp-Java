@@ -1,50 +1,99 @@
-# CMD
-Comandos utilizados no cmd: <br>
-Cd ->“Entra em uma pasta.<br>
-Cd .. - Volta uma pasta .<br>
-Dir - Mostra os diretórios existentes na pasta.<br>
-Cls -> Limpa a tela .<br>
-Mkdir "nome da pasta"-Cria uma pasta.<br>
-Echo- Printa alguma string.<br>
-Del "nome da pasta" - Limpa a pasta, apagando os arquivos que há nela.<br>
-Rmdir "nome da pasta"- Apaga a pasta<br>
+# Entendendo o Java
+## Características 
+- Compilada
+- Interpretada.
+- Fortemente tipada.
+- Linguagem de alto nível
+- Executada em uma máquina virtual - JVM
 
-# Atalhos:
-TAB- Completa o nome do arquivo.<br>
-Ctr+L -> Limpa a tela cmd.<br>
+# Entendendo a JVM
+## Características 
+- Execução de pilhas
+- Gerenciamento de memória.
+- Gerenciamento de threads.
+- Otimização de código(Compilação JIT-Just in time)
+- Garbage Collector(GC). Limpeza da memória suja.
+## Palavras reservadas:
+São palavras que não podem ser usadas para criação de objetos ou classes pois o Java já utiliza as mesmas.
+## Classes
+Sempre incia com letra Maiúscula e representa o mundo real.
+## Modificadores de Acesso
+- public 
+ Qualquer classe de qualquer pacote poderá ter acesso ao atributo ou métedo.
+- protected
+ Qualquer classe definida no mesmo pacote ou subclasse.
+- Sem modificador 
+ Apenas classes definidas no mesmo pacote.
+- private 
+ Apenas a própria classe.
 
-# Git
-SHA -  Secure  Hash Algorithm,É um conjunto de funções hash criptograficas projetadas pela NSA. Gera uma chave de 40 algoritmos.<br>
-Blob-  Contémm metadados do Git: tipo do objeto, tamanho etc..<br>
-Tree- armazena os Blob (aponta p/ o Blob).<br>
-Commit- aramazena as Tree(aponta p/ Tree).<br>
+## Métodos
+Construtores = Definem como uma classe será contruida.<br>
+Comuns =  Definem comportamentos que podem ou não ser atribuídas às regras de negócio.
+
+## Estrutura de condição
+- if-else
+if (condição){
+return x;
+}
+else {
+return y;
+}
+
+- swhitch-case
+switch (valor){
+	case x:
+		return q;
+	case y:
+		return w;
+	defult:
+		return 0;
+}
 
 
-Comandos:
-Openssl sha1 “nome do arquivo” -> criptografa.<br>
-Git init -> inicia um repositório.<br>
-Git add * ou "Nome do arquivo" ->move arquivos para stage e dai serem commitados.<br>
-Git commit-m -> salva as alterações ná maquina local para poder ser trasnferido no servidor remoto<br>
-List -a-> mostra arquivos ocultos<br>
-git  config list -> mostra as configurações de user, email etc..<br>
-git status-> vê se os arquivos estão em stage para subir para o github.<br>
-git remote add "nome atribuido ao link" link.-> adiciona um link do repositório para subir pro github.<br>
-git remote -v -> lista os repositórios adicionados.<br>
-git pull "nome do repositorio"-> puxa o repositório mais atual.<br>
+## Estrutura de repetição.
+- while
+while(condição){
+faça.
+}
 
+- do-while
+do{
+	faça
+}while(condição)
 
-# Como resolver problema de conflito:
-- primeiro se dá um git pull no repositório.
+- for 
+for (condição){
+faça
+}
+- enhanced for
+for (variavel i : itens){
+faça
+}
 
-# Comandos:
-Openssl sha1 â€œnome do arquivoâ€ -> criptografa.<br>
-Git init - inicia um repositÃ³rio.<br>
-Git add * ou "nome do carquivo" -move arquivos para stage para ser commitado.<br>
-Git commit -m "motivo do commit"- Commita as alterações e salva no computador<br>
-List -a-> mostra arquivos ocultos<br>
+## Comentário
+- Em linha
+ // 
+- Em bloco
+/**  */
 
-
-
-
-
-
+## Javadoc
+ è uma ferramenta para documentação no formato HTML que se baseia nos comentários do código-fonte por Tags.
+## Tags
+- @author
+Especifica o autor da classe.
+- @deprecated
+identifica classes ou métodos obsoletos.
+- @link 
+Possibilita a definição de um link p/ outro documento local ou remoto através de um url.
+- @param 
+descreve um parâmetro que será passado a um método.
+- @return
+Descreve qual tipo de retorno.
+- @see
+Associa a outras classes ou métodos
+- @since
+Descreve desde quando uma classe ou métodos foi adicionados
+- @throws 
+Descreve os tipos de exceções que podem ser lançadas por um método
+-
