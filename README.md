@@ -1,5 +1,5 @@
 # Repositório do desafio de projetos sobre Git/GitHub
-Repositório criado para o Desafio de Projeto
+Repositório criado para o Bootmcap de JAVA.
 
 ## Links úteis 
-[Sintaxe Básica MarkDown](https://www.markdownguide.org/)
+
