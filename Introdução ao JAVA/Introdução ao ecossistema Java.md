@@ -96,4 +96,10 @@ Associa a outras classes ou métodos
 Descreve desde quando uma classe ou métodos foi adicionados
 - @throws 
 Descreve os tipos de exceções que podem ser lançadas por um método
--
+# Conversões
+## Upcast(implícito)
+- Promoção de um tipo de dado de menor capacidade para maior capacidade (tamanho).
+long l; int i; l=i;
+## Downcast(explícito)
+- Promoção de um tipo de dado de maior capacidade para menor capacidade (tamanho).
+int i; long l=100; i=(int)l;
