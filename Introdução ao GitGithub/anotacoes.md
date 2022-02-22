@@ -28,11 +28,14 @@ Git init -> inicia um repositório.<br>
 Git add * ou "Nome do arquivo" ->move arquivos para stage e dai serem commitados.<br>
 Git commit-m -> salva as alterações ná maquina local para poder ser trasnferido no servidor remoto<br>
 List -a-> mostra arquivos ocultos<br>
-git  config list -> mostra as configurações de user, email etc..<br>
+git config --global user.email "seu email" -> 
+git config --global user.name "seu nome" -> 
+git  config --list -> mostra as configurações de user, email etc..<br>
 git status-> vê se os arquivos estão em stage para subir para o github.<br>
 git remote add "nome atribuido ao link" link.-> adiciona um link do repositório para subir pro github.<br>
 git remote -v -> lista os repositórios adicionados.<br>
 git pull "nome do repositorio"-> puxa o repositório mais atual.<br>
+git push "origin" -> empurra as atualizações.
 
 
 # Como resolver problema de conflito:
