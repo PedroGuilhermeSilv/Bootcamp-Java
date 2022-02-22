@@ -1,0 +1,16 @@
+# Como fazer a instalação.
+- Instale o Git e o Java em sua máquina.
+- Abra o cmd do Git e siga a sequência de comandos:
+1- $ ssh-keygen -t ed25519 -C "seu email do github"
+2- Digite uma senha (vai aparacer o caminho onde foi criado a senha )
+3- $ cd "caminh/.ssh"
+4-$ ls (vai aparecer a chave publica e a privada)
+5- $ cat "id_pub"
+6- copia a saida . Vá no github -> Setting -> SSH and GPD KEYS -> new SSH keys-> cole no campo keys.
+7- volte ao cmd
+8-$ eval $(ssh-agent -s) 
+9-$ ls
+10-$ ssh-add "id_proviado" (ele vai pedir a senha que foi criada no git)
+
+
+
