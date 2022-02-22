@@ -35,7 +35,7 @@ git status-> vê se os arquivos estão em stage para subir para o github.<br>
 git remote add "nome atribuido ao link" link.-> adiciona um link do repositório para subir pro github.<br>
 git remote -v -> lista os repositórios adicionados.<br>
 git pull "nome do repositorio"-> puxa o repositório mais atual.<br>
-git push "origin" -> empurra as atualizações.
+git push "origin" master -> empurra as atualizações.
 
 
 # Como resolver problema de conflito:
@@ -46,6 +46,7 @@ Openssl sha1 â€œnome do arquivos -> criptografa.<br>
 Git init - inicia um repositório.<br>
 Git add * ou "nome do carquivo" -move arquivos para stage para ser commitado.<br>
 Git commit -m "motivo do commit"- Commita as alterações e salva no computador<br>
+git push "origin" master -> empurra as atualizações.
 List -a-> mostra arquivos ocultos<br>
 
 
