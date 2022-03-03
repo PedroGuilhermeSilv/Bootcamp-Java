@@ -1,4 +1,4 @@
-Desafio: Considerando nosso conhecimento no domínio bancário, iremos abstrair uma solução Orientada a Objetos em Java. Para isso, vamos interpretar o seguinte cenário: “Um banco oferece aos seus clientes dois tipos de contas (corrente e poupança), as quais possuem as funcionalidades de depósito, saque e transferência (entre contas da própria instituição).”
+Desafio: Criação de um "Banco Digial" onde iremos abstrair uma solução Orientada a Objetos em Java. Para isso, foi interpretado o seguinte cenário: “Um banco oferece aos seus clientes dois tipos de contas (corrente e poupança), as quais possuem as funcionalidades de depósito, saque e transferência (entre contas da própria instituição).”
 # Abstração
 Habilidade de concentrar-se nos aspectos essenciais de um domínio, ignorando características menos importantes ou acidentais. Nesse contexto, objetos são abstrações de entidades existentes no domínio em questão.
 
@@ -10,3 +10,6 @@ Permite que você defina uma classe filha que reutiliza (herda), estende ou modi
 
 # Polimorfismo
 Capacidade de um objeto poder ser referenciado de várias formas, ou seja, é capacidade de tratar objetos criados a partir das classes específicas como objetos de uma classe genérica. Cuidado, polimorfismo não quer dizer que o objeto fica se transformando, muito pelo contrário, um objeto nasce de um tipo e morre daquele tipo, o que pode mudar é a maneira como nos referimos a ele.
+
+# Controle de Erro
+Para não encerrar o programa e pra facilitar a manutenção adicionei um try cash para que a pessoa que tente sacar mais que seu saldo retorno um erro mas continue o resto da execução.
