@@ -5,6 +5,8 @@ Todas as minha anotações das aulas e atividades foram salvas neste repositóri
 
 ## Links úteis 
 https://git-scm.com/ 
+
 https://www.oracle.com/java/technologies/downloads/
+
 https://netbeans.apache.org/download/index.html
 
