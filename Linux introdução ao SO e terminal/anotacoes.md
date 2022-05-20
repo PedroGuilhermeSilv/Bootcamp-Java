@@ -1,8 +1,8 @@
-# Fundamentos de Linus 
+# Fundamentos de Linux 
 
 - Cirado em 1991.
-- O linux é o kernel ou Núcleo do SO.
-- É desenvolvido por diversas pessoas/empresas,ou seja, Multitarefa/Multiusuário.
+- O linux Ã© o kernel ou NÃºcleo do SO.
+- Ã‰ desenvolvido por diversas pessoas/empresas,ou seja, Multitarefa/MultiusuÃ¡rio.
 
 # Terminal (Ubuntu)
 - Shell ou Konsole 
@@ -12,17 +12,17 @@
 	twd = mostra o caminho onde estamos.
 	ls = mostra as pastas existentes.
 	cd + nome da pasta = acessa pasta.
-	mkdir + nome = cria um diretório.
+	mkdir + nome = cria um diretÃ³rio.
 	man ls = retorna o manual de uso do ls.
-	hitory = mostra o histórico de atalhos usados.
-	Ctrl + C = cancela o comando atual em execução.
+	hitory = mostra o histÃ³rico de atalhos usados.
+	Ctrl + C = cancela o comando atual em execuÃ§Ã£o.
 	Ctrl + w = apaga uma palavra na linha atual.
 	Ctrl + U = apada a linha inteira.
 	Ctrl + R = Busca um comando recente.
 	clear = limpa dela do terminal
-	rmdir + nome do diretório = remove diretórios ou arquivos.
+	rmdir + nome do diretÃ³rio = remove diretÃ³rios ou arquivos.
 	rm + nome do arquivo = remove arquivo.
 	comando + ~help = exibe painel de ajuda sobre o comando.
 	touch + nomearquivo = cria arquivo vazio.
-	cp + arquivo + diretorio = copia um arquivo para outro diretório. 
+	cp + arquivo + diretorio = copia um arquivo para outro diretÃ³rio. 
 	Ctrl + d ou exit = sair do terminal.
