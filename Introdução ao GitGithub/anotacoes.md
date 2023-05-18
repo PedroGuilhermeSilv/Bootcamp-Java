@@ -36,6 +36,7 @@ git remote add "nome atribuido ao link" link.-> adiciona um link do repositório
 git remote -v -> lista os repositórios adicionados.<br>
 git pull "nome do repositorio"-> puxa o repositório mais atual.<br>
 git push "origin" master -> empurra as atualizações.
+git branch -m master main -> converte branch "master" para "main".
 
 
 # Como resolver problema de conflito:
